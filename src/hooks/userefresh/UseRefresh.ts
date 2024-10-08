@@ -16,6 +16,7 @@ const useRefresh = () => {
           predicate: (query) => {
             return query.queryKey.includes(k);
           },
+          type: "active",
         });
       });
 
